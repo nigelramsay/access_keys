@@ -41,3 +41,5 @@ TODO LIST
 1. Detect browser type and platform, and display appropriate modifier keys
 2. Write a JQuery version
 3. Write a plain version
+4. Write a version that runs from a Bookmarklet
+
