@@ -1,0 +1,21 @@
+Access Keys helper
+
+This javascript routine parses the DOM tree looking for buttons and links that have an access key defined. The access keys for these elements are then displayed either:
+
+1. Inside an "access_keys" element (if one exists), or
+2. At the bottom of the BODY element, inside a newly created "access_keys" element
+
+REQUIREMENTS
+
+* Prototype
+
+INSTALLATION
+
+1. copy the access_keys.js file into your javascripts folder
+2. include a reference to the file inside your HTML
+
+See the demo.html file for example usage.
+
+COPYRIGHT
+
+Copyright (c) 2009 Radio New Zealand Limited
