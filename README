@@ -19,3 +19,14 @@ See the demo.html file for example usage.
 COPYRIGHT
 
 Copyright (c) 2009 Radio New Zealand Limited
+
+AUTHOR
+
+Nigel Ramsay of Able Technology Limited
+http://www.abletech.co.nz/
+
+TODO LIST
+
+1. Detect browser type and platform, and display appropriate modifier keys
+2. Write a JQuery version
+3. Write a plain version
