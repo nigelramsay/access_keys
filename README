@@ -1,4 +1,5 @@
-Access Keys helper
+ACCESS KEYS HELPER
+------------------
 
 This javascript routine parses the DOM tree looking for buttons and links that have an access key defined. The access keys for these elements are then displayed either:
 
@@ -15,6 +16,15 @@ INSTALLATION
 2. include a reference to the file inside your HTML
 
 See the demo.html file for example usage.
+
+SUPPORTED BROWSERS
+
+Have successfully tested on these platforms:
+
+* Internet Explorer versions 6, 7 and 8
+* Firefox on Windows and Mac
+* Safari on Windows and Mac
+* Google Chrome
 
 COPYRIGHT
 
