@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Access Keys demo</title>
+
+ </head>
+  <body>
+    <h1>Access Keys demo</h1>
+    
+    <p>
+      This demo is made available by the kind generosity of 
+      <a href="http://www.radionz.co.nz" accessKey="r">Radio New Zealand</a> 
+      and 
+      <a href="http://www.abletech.co.nz" accessKey="a">Able Technology</a>.
+    </p>
+    
+    <form action="http://www.google.com/search">
+      <p>
+        <input type="text" name="q" />
+        <input type="submit" name="submit" value="Search Google" accessKey="S" />
+      </p>
+    </form>
+    
+    <div id="access_keys">test</div>
+    
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="access_keys.js">
+    </script>
+
+	<script type="text/javascript">
+		$(function() {
+		  $('#access_keys').show_access_keys();
+		});
+	</script>
+
+  </body>
+</html>

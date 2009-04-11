@@ -9,6 +9,7 @@ This javascript routine parses the DOM tree looking for buttons and links that h
 REQUIREMENTS
 
 * Prototype
+* JQuery (if using jQuery - note this example is to show jQuery idiom - you could also pass in function for the formating of the key list - the default format here is promiscuous and works with the current example but may fall over on other html - final note, this code should be TDD/BDD'd)
 
 INSTALLATION
 
@@ -41,7 +42,7 @@ http://www.abletech.co.nz/
 TODO LIST
 
 1. Detect browser type and platform, and display appropriate modifier keys
-2. Write a JQuery version
-3. Write a plain version
-4. Write a version that runs from a Bookmarklet
+2. Write a plain version
+3. Write a version that runs from a Bookmarklet
+4. Demonstrate code through TDD/BDD
 
